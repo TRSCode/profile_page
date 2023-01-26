@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: cursive;
+}
+
+.navbar-lg {
+    height: 100px;
+    background-color: black;
+    margin-bottom: 30px;
+}
+
+.navbar-sm {
+    height: inherit;
+    width: 1300px;
+    margin: 0px auto;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+h1.profile {
+    width: 150px;
+}
+.nav-links {
+    flex:4;
+}
+.nav-links ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+}
+.highlight {
+    font-weight:bold;
+}
+
+.link {
+    list-style-type: none;
+}
+
+.btn {
+    background-color: #17a2b8;
+    color: white;
+    width: 85px;
+    font-size: larger;
+    padding-left: 5px;
+}
+/* --------------main body------------------ */
+.main{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.left{
+    flex: 2;
+    height: 800px;
+}
+
+.user{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.u-top{
+    height:150px;
+    background-color:#17a2b8 ;
+}
+
+.profile-img{
+    height:150px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin: 75px;
+}
+
+.u-bottom {
+    height:fit-content;
+    padding-left:75px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.border-x3{
+    border: 2px solid #cccccc;
+    border-top: 0;
+}
+
+.skills{
+    list-style-type: none;
+    display: flex;
+    margin-top:10px;
+    
+}
+
+.sub-text{
+    font-weight:bold;
+
+}
+
+p.edit, a, .c-lower{
+    margin-top: 10px;
+    color: #17a2b8;
+}
+
+.icon {
+    height:15px;
+}
+
+/* ------------------education-------------------- */
+.edu{
+    height: 300px;
+}
+
+.e-top {
+    height: 75px;
+    background-color: #535151;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: lighter;
+}
+.e-top h3 {
+    padding-top:25px;
+    padding-left:75px;
+}
+
+.e-bottom h2, .e-bottom h3 {
+    padding-left: 75px;
+    padding-top: 20px;
+    border-left: 2px solid #cccccc;
+    border-right: 2px solid #cccccc;
+}
+/* -------------------right column------------------ */
+.right{ 
+    flex:1;
+    height: 800px;
+    margin-left: 30px;
+}
+/* ---------------connection request------------- */
+.request{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.r-upper {
+    height: 75px;
+    background-color: #535151;
+    color: white;
+    display: flex;
+    align-items:center;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+
+p.n-requests {
+    background-color:#c6c6c6;
+    border-radius: 50%;
+    color: #535151;
+    width: 30px;
+    padding-left: 13px;
+    padding-bottom: 3px;
+}
+
+.r-lower{
+    border: 2px solid #cccccc;
+    color: #535151;
+    border-top: none;
+    height: inherit;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 25px;   
+}
+
+.r-row-1, .r-row-2 {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.r-row-1 label, .r-row-2 label {
+    width: 180px;
+}
+.pic{
+    height: 45px;
+    border-radius: 50%;
+}
+.icon-s{
+    height:40px;
+}
+
+/* ----------connections-------------- */
+.connections{
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.c-upper {
+    height: 75px;
+    background-color: #535151;
+    color: white;
+    display: flex;
+    align-items:center;
+    font-size: 25px;
+    justify-content: space-evenly;
+}
+
+p.n-connections {
+    background-color:#c6c6c6;
+    border-radius: 50%;
+    color: #535151;
+    width: 70px;
+    padding-left: 13px;
+    padding-bottom: 3px;
+}
+
+.c-lower {
+    border-right: 2px solid #cccccc;
+    border-left: 2px solid #cccccc;
+    border-bottom: 0px;
+    padding: 20px 0px 0px 10px;
+    font-size: 25px; 
+    color: #535151;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.c-row-1, .c-row-2, .c-row-3, .c-row-4 {
+    display: flex;
+    align-content: center;
+    padding-bottom: 10px;
+}
+
+.c-row-1 label, .c-row-2 label, .c-row-3 label, .c-row-4 label {
+    width: 300px;
+    padding-left: 40px;
+}
+
+.c-more {
+    height: 50px;
+    border: 2px solid #cccccc;
+    display: flex;
+    padding-left: 10px;
+}
+
